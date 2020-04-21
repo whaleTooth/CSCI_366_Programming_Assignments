@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89524d5-8624-4c89-b341-f8f31d59e162" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/SERVER.dir/BitArray2D.asm.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/SERVER.dir/BitArray2D.asm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/libSERVER.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/libSERVER.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BitArray2D.asm" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitArray2D.asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitArray2D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitArray2D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="CMake Application.run_client">
+  <component name="RunManager" selected="CMake Application.battleship_tests">
     <configuration name="CLIENT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Battleship" TARGET_NAME="CLIENT" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -145,7 +147,7 @@
       <workItem from="1586490120401" duration="697000" />
       <workItem from="1586563075146" duration="2347000" />
       <workItem from="1586568243371" duration="696000" />
-      <workItem from="1587157903540" duration="15668000" />
+      <workItem from="1587157903540" duration="17762000" />
     </task>
     <task id="LOCAL-00001" summary="added to client and server">
       <created>1587158912629</created>
@@ -182,22 +184,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587158560394" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587428221645">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1587430805284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587428221645" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587428221645">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587430805284" />
+    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1587430805284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587428221645" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587428221645">
+    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587430805284" />
+    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1587430805284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587428221645" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587428221645">
+    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587430805284" />
+    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1587430805284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587428221645" />
+    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587430805284" />
     <state x="147" y="71" key="MergeDialog" timestamp="1587158436844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
