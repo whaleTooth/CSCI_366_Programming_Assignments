@@ -32,6 +32,15 @@ int get_file_length(ifstream *file){
 void Server::initialize(unsigned int board_size,
                         string p1_setup_board,
                         string p2_setup_board){
+    if(board_size != BOARD_SIZE) {
+        throw ServerException("Board size not equal.");
+    }
+
+    if(p1_setup_board.length() == 0 || p2_setup_board.length() == 0) {
+        throw ServerException("No file name.");
+    }
+
+    this->board_size = board_size;
 }
 
 
@@ -43,9 +52,83 @@ BitArray2D *Server::scan_setup_board(string setup_board_name){
 }
 
 int Server::evaluate_shot(unsigned int player, unsigned int x, unsigned int y) {
+    if (x < 0 || x > board_size - 1 || y < 0 || y > board_size - 1 ){
+        return OUT_OF_BOUNDS;
+    }
+
+    if (player > MAX_PLAYERS || player <= 0) {
+        throw ServerException("Wrong amount of players.");
+    }
+
+    if (player == 1) {
+        player = 2;
+    } else if (player == 2){
+        player = 1;
+    } else {
+        throw ServerException("Player number invalid.");
+    }
+
+    string filename = "player_" + to_string(player) + ".setup_board.txt";
+    ifstream setupboard;
+    setupboard.open(filename);
+    vector<string> line(board_size, " ");
+
+    string fileline;
+    int counter = 0;
+    while (!setupboard.eof()) {
+        while(getline(setupboard, fileline)) {
+            line[counter] = fileline;
+            counter++;
+        }
+    }
+
+    char shot = line[y].at(x);      //uses user input to get the location of the shot
+
+    if (shot == '_') {
+        return MISS;
+    } else {
+        return HIT;
+    }
+
 }
 
 
 int Server::process_shot(unsigned int player) {
-   return NO_SHOT_FILE;
+    if (player <= 0 || player > MAX_PLAYERS){
+        throw ServerException("Player number invalid.");
+    }
+
+    string shotfilename;
+    if (player == 1) {
+        shotfilename = "player_1.shot.json";
+    } else if (player == 2) {
+        shotfilename = "player_2.shot.json";
+    }
+
+    ifstream shotfile;//shotfilename);    //create input file stream of filename
+    shotfile.open(shotfilename);
+
+    if (!shotfile) {
+        return NO_SHOT_FILE;
+    }
+
+    int x, y;
+    cereal::JSONInputArchive readfile(shotfile);
+    readfile(x, y);     //read in x, y values from shot file
+
+    int result = evaluate_shot(player, x, y);   //get value (1, -1, or 0) from evaluate_shot
+    remove(shotfilename.c_str());     //remove shotfile
+
+    string resultfilename;
+    if (player == 1) {
+        resultfilename = "player_1.result.json";
+    } else if (player == 2) {
+        resultfilename = "player_2.result.json";
+    }
+
+    ofstream resultfile(resultfilename);
+    cereal::JSONOutputArchive playerresult(resultfile);
+    playerresult(cereal::make_nvp("result", result));
+
+    return SHOT_FILE_PROCESSED;
 }
