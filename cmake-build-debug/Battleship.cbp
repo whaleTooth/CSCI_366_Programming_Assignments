@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Battleship"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\googlemock\;CMake Files\googletest\googlemock\cmake\;CMake Files\googletest\googletest\;CMake Files\googletest\googletest\cmake\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLIENT">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/libCLIENT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CLIENT"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLIENT/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/libCLIENT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CLIENT/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SERVER">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/libSERVER.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 SERVER"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SERVER/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/libSERVER.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 SERVER/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_server">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/run_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 run_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_server/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/run_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 run_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_client">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/run_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 run_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_client/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/run_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 run_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleship_tests">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/battleship_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/dtl/dtl"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 battleship_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleship_tests/fast">
+				<Option output="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/battleship_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/dtl/dtl"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cereal/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/include"/>
+					<Add directory="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 battleship_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/BitArray2D.asm">
+			<Option target="SERVER"/>
+			<Option target="run_server"/>
+			<Option target="run_client"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/BitArray2D.cpp">
+			<Option target="SERVER"/>
+			<Option target="run_server"/>
+			<Option target="run_client"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/BitArray2D.hpp">
+			<Option target="SERVER"/>
+			<Option target="run_server"/>
+			<Option target="run_client"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/Client.cpp">
+			<Option target="CLIENT"/>
+			<Option target="run_client"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/Client.hpp">
+			<Option target="CLIENT"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/Server.cpp">
+			<Option target="SERVER"/>
+			<Option target="run_server"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/Server.hpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/client_main.cpp">
+			<Option target="run_client"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/server_main.cpp">
+			<Option target="run_server"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/tests.cpp">
+			<Option target="battleship_tests"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/player_1.setup_board.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/player_2.setup_board.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_fire_message.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_hit_action_board.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_hit_result.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_miss_action_board.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_miss_result.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_out_of_bounds_result.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/mnt/d/Users/jadam/CLionProjects/CSCI_366_Programming_Assignments/test/correct_start_action_board.json">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

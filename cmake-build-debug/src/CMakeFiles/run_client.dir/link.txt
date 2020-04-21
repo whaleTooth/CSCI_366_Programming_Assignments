@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/run_client.dir/client_main.cpp.o CMakeFiles/run_client.dir/Client.cpp.o CMakeFiles/run_client.dir/BitArray2D.cpp.o CMakeFiles/run_client.dir/BitArray2D.asm.o  -o run_client 

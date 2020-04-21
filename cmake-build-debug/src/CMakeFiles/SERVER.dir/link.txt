@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSERVER.a  CMakeFiles/SERVER.dir/Server.cpp.o CMakeFiles/SERVER.dir/BitArray2D.cpp.o CMakeFiles/SERVER.dir/BitArray2D.asm.o
+/usr/bin/ranlib libSERVER.a

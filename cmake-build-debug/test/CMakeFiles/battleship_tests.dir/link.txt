@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/battleship_tests.dir/tests.cpp.o  -o battleship_tests ../src/libSERVER.a ../src/libCLIENT.a ../lib/libgtestd.a ../lib/libgmock_maind.a ../lib/libgmockd.a ../lib/libgtestd.a -lpthread 
